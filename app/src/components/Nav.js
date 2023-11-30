@@ -19,9 +19,9 @@ function Nav() {
         <FontAwesomeIcon icon={faBars} />
       </div>
 
-      {/* <div className="hero">
+      <div className="hero">
         <h1>Hero Section</h1>
-      </div> */}
+      </div>
     </header>
   );
 }
