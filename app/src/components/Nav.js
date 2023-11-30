@@ -1,3 +1,6 @@
+import { faBars } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 function Nav() {
   return (
     <header>
@@ -12,11 +15,13 @@ function Nav() {
         <button className="action_btn">Sign up</button>
       </nav>
 
-      <div className="toggle_btn"></div>
-
-      <div className="hero">
-        <h1>Hero Section</h1>
+      <div className="toggle_btn">
+        <FontAwesomeIcon icon={faBars} />
       </div>
+
+      {/* <div className="hero">
+        <h1>Hero Section</h1>
+      </div> */}
     </header>
   );
 }
